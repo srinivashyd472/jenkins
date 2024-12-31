@@ -1,8 +1,8 @@
 #!/bin/bash
-for i in {1..10}; do
-    if {$i % 2 -eq 0}; then
-        echo " $i is even"
+for I in {1..10}; do
+    if {$I % 2 -eq 0}; then
+        echo " $I is even"
     else
-        echo "$i is odd"
+        echo "$I is odd"
     fi
 done
